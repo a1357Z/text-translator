@@ -1,0 +1,33 @@
+{
+    "name": "language-translation-app",
+    "version": "1.0.0",
+    "description": "translates language",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "mocha",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "author": "ajay yadav",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.6",
+        "express": "^4.17.2",
+        "mocha": "^9.2.0",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.15",
+        "sequelize": "^6.16.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "prettier": "^2.5.1"
+    }
+}
